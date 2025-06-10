@@ -4,8 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class InventoryServiceMain {
+public class InventoryServiceApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(InventoryServiceMain.class,args);
+		SpringApplication.run(InventoryServiceApplication.class,args);
 	}
 }
